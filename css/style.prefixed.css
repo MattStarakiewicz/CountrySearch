@@ -26,6 +26,11 @@ body .container h2 {
   font-weight: 300;
 }
 
+body .container p {
+  font-size: 10px;
+  color: #ccc;
+}
+
 body .container input {
   width: 345px;
   border: 3px solid #ccc;
