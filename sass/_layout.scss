@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    .container {
+        font-family: 'Roboto', Helvetica, sans-serif;
+        width: 1150px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            font-size: 35px;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 28px;
+            font-weight: 300;
+        }
+        input {
+            width: 345px;
+            border: 3px solid #ccc;
+            border-radius: 5px;
+            padding: 15px 10px;
+            color: #686868;
+            margin-bottom: 10px;
+            font-size: 15px;
+            &:focus {
+                outline: 3px solid #7cd1fc;
+            }
+            &::placeholder {
+                color: #ccc;
+            }
+        }
+
+        button {
+            text-transform: uppercase;
+            font-weight: 700;
+            width: 200px;
+            color: #fff;
+            background-color: #0188cc;
+            padding: 15px 0px;
+            border: 3px solid #016496;
+            border-radius: 5px;
+            margin: 10px 0;
+            transition-duration: 0.6s;
+            &:hover {
+                background-color: #7cd1fc;          
+            }
+            &:focus {
+                outline: none;
+            }
+
+        }
+        .table-headers {
+            width: 800px;
+            background: #686868;
+            display: flex;
+            flex-direction: row;
+            color: #fff;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            h3 {
+                padding-left: 40px;
+                font-size: 15px;
+                width: 400px;
+            }
+        }
+        .table {
+            width: 800px;
+            background: #efefef;
+            display: flex;
+            flex-direction: row;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            ul {
+                list-style-type: none;
+                font-size: 15px;
+                width: 400px;
+                padding-inline-start: 0;
+                li {
+                    height: 50px;
+                    border-bottom-style: solid;
+                    border-bottom-color: #fff;
+                    border-bottom-width: 2px;
+                    margin: 10px 0;
+                    padding-left: 40px;
+                    padding-bottom: 10px;
+                }
+            };
+
+        }
+    }
+}
+

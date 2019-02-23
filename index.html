@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Country search engine</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.prefixed.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Country search engine</h1>
+        <input id="country-name" type="text" placeholder="Enter the name of the country..." />
+        <button id="search">Search a country</button>   
+        <h2>List of countries:</h2>
+        <div class="table-headers">
+            <h3>Country:</h3>
+            <h3>Capital:</h3>
+            <h3>Currency:</h3>
+            <h3>Language:</h3>
+        </div>
+        <div class="table">
+            <ul id="countries">
+                <li>No data</li>
+             </ul>
+            <ul id="capitals">     
+                <li>No data</li>
+            </ul>
+            <ul id="currencies">
+                <li>No data</li>
+            </ul>
+            <ul id="languages">
+                <li>No data</li>
+            </ul>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

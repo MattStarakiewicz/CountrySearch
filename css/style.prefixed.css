@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+body .container {
+  font-family: 'Roboto', Helvetica, sans-serif;
+  width: 1150px;
+  margin: 0 auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+}
+
+body .container h1 {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+body .container h2 {
+  font-size: 28px;
+  font-weight: 300;
+}
+
+body .container input {
+  width: 345px;
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  padding: 15px 10px;
+  color: #686868;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+body .container input:focus {
+  outline: 3px solid #7cd1fc;
+}
+
+body .container input:-ms-input-placeholder {
+  color: #ccc;
+}
+
+body .container input::placeholder {
+  color: #ccc;
+}
+
+body .container button {
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 200px;
+  color: #fff;
+  background-color: #0188cc;
+  padding: 15px 0px;
+  border: 3px solid #016496;
+  border-radius: 5px;
+  margin: 10px 0;
+  transition-duration: 0.6s;
+}
+
+body .container button:hover {
+  background-color: #7cd1fc;
+}
+
+body .container button:focus {
+  outline: none;
+}
+
+body .container .table-headers {
+  width: 800px;
+  background: #686868;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+body .container .table-headers h3 {
+  padding-left: 40px;
+  font-size: 15px;
+  width: 400px;
+}
+
+body .container .table {
+  width: 800px;
+  background: #efefef;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body .container .table ul {
+  list-style-type: none;
+  font-size: 15px;
+  width: 400px;
+  -webkit-padding-start: 0;
+          padding-inline-start: 0;
+}
+
+body .container .table ul li {
+  height: 50px;
+  border-bottom-style: solid;
+  border-bottom-color: #fff;
+  border-bottom-width: 2px;
+  margin: 10px 0;
+  padding-left: 40px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=style.prefixed.css.map */
